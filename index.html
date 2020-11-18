@@ -1,0 +1,285 @@
+<html>
+	<body>
+			<script src="java.js"></script>
+			<link rel="stylesheet" href="style.css">
+		<title>
+		Instagram
+		</title>
+		<head>
+			 <!-- add icon link -->
+       
+		
+		<link rel="icon" href="img\favicon.ico" type="image/x-icon">
+		</head>
+	<!-- navigation -->
+					<div class="navigation">
+						<div class="logo">
+							<img style="width:103px; height:50px;" src="img\logo.png" alt="Instagram">
+						</div>
+						
+	<!-- Search section -->
+						<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+							<div  class="search">
+								<span class="fa fa-search"></span>
+							<input class="search1" type="text"   placeholder="Search">
+						</div>
+							
+					
+
+						<div class="icon-bar">
+							<a	href="WWW.facebook.com" ><img style="padding:10px; width:25px; height:25px;" src="img\home.png" alt="Home"></a>
+							<a	href="#" 	><img style="padding:10px; color:black; width:25px; height:25px;" src="img\direct.png" alt="Direct Message"></a>
+							<a	href="#"    ><img style="padding:10px; width:25px; height:25px;" src="img\safari.png" alt="Explore"></a>
+							<a	href="#"    ><img style="padding:10px; width:22px; height:22px;" src="img\like.png" alt="Activity"></a>
+							<a	href="#"    ><img style="border-radius: 50%; padding:10px; width:23px; height:23px;" src="img\account.jpg" alt="Account"></a>
+						</div>
+						  
+  
+
+
+					</div>
+					<br>
+					<br>
+					
+	<!-- story section -->
+					<div class="story-section"   >
+						<div class="story" >
+							<a type="button" href="#"><img class="storypic" src="img\yasaman.jpg" alt="Yasaman.usefi">
+							<svg viewbox="0 0 100 100" onclick="alert('click!')" >
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+							<div class="storyname"><a href="#"  >Yasaman</a></div>
+						</div>	
+						<div class="story">
+							<a href="#"><img class="storypic" src="img\miri.jpg" alt="kimiaaghamiri">
+							<svg viewbox="0 0 100 100">
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+							<div class="storyname"><a href="#"  >kimia</a></div>
+						</div>
+						<div class="story">
+							<a href="#"><img class="storypic" src="img\babak.jpg" alt="Babak.ghasemi">
+							<svg viewbox="0 0 100 100">
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+							<div class="storyname"><a href="#" >Babak</a></div>
+						</div>
+						<div class="story">
+							<a href="#"><img class="storypic" src="img\mohamad.jpg" alt="Mohamad.noor">
+							<svg viewbox="0 0 100 100">
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+							<div class="storyname"><a style="text-align:center;" href="#" >Mohamad</a></div>
+						</div>	
+						<div class="story">
+							<a href="#"><img class="storypic" src="img\olia.jpg" alt="Olia_seifi">
+							<svg viewbox="0 0 100 100">
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+							<div class="storyname" style="text-align:center;"><a href="#" >Olia</a></div>
+						</div>
+						<div class="story">
+							<a href="#"><img class="storypic" src="img\samane.jpg" alt="samanta">
+							<svg viewbox="0 0 100 100">
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+							<div class="storyname"><a href="#" >Samaneh</a></div>
+						</div>
+						<div class="story">
+							<a href="#"><img class="storypic" src="img\erfan.jpg" alt="Erfan">
+							<svg viewbox="0 0 100 100">
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+								<div class="storyname"><a href="#" >erfana</a></div>
+						</div>
+						<div class="story">
+							<a href="#"><img   class="storypic" src="img\salar.jpg" alt="salarmirzaei">
+							<svg viewbox="0 0 100 100">
+							<circle cx="50" cy="50" r="40"/>
+							</svg></a>
+							<div class="storyname" > <a href="#" >Salar</a></div>
+						</div>
+					</div>
+					
+					<br><br>				
+	<!-- post section-->					
+				<div class="postsection">		
+							
+					<div class="post-top" >
+							<div class="postpic" >
+								<a  href="#"><img style="width:35px; height:35px; "  class="storypic" src="img\postpic1.jpg" alt="myhouse-Idea">
+								<svg style="margin-top:3.5px;  margin-left:3px;                     width:48px; height:48px;" viewbox="0 0 100 100" >
+								<circle cx="50" cy="50" r="40"/>
+								</svg></a>
+								<div class="postname"><strong><a href="#"  >myhouse</a></strong></div>
+							<div class="optionicon">
+								<a	href="#" >...</a>
+							</div>	
+							</div>	
+							
+							
+					</div>
+	<!-- post picture -->
+				
+
+				<div class="parent">
+				<button class="image2" ondblclick="addone()" ><img id='container'  onclick="show()"   style="width:633px; height:800px; margin-left:-5px;" src="img\post1.jpg" /></button>
+				 <div  ><img id='hideMe'  class="image1" style="height:150px; width:150px;" src="img\redlike.png" /></div>
+				  
+				</div>
+
+
+
+
+
+
+
+				
+						<script>
+    
+						function show() {
+							var x = document.getElementById("hideMe");
+							
+							if (x.style.visibility === "hidden") {
+								
+								x.style.animation = "cssAnimation 1s forwards";
+								x.style.animation = "cssAnimation 1.5s forwards";
+								x.style.visibility = "visible";
+							} else {
+								x.style.visibility = "hidden";
+							}
+						}
+						
+						</script>
+						
+					
+				
+	<!-- post bottom -->	
+					<div class="postbottom">
+						<div class="buttons">
+								
+							   <div><button  class="likebutton" onclick="addone()" type="button" ><img style="padding:7px; padding-right:0px; width:25px; height:22px; " src="img\like.png" alt="Like"  ></button></div>
+							   <div><a	href="#" 	><img style="padding:7px; padding-right:0px; width:24px; height:24px;" src="img\coment.png" alt="Comment"></a></div>
+							   <div><a	href="#"    ><img style="padding:7px; width:30px; height:28px;" src="img\direct.png" alt="Direct"></a></div>
+							   <div><a	href="#"    ><img style="margin-left:480px; width:30px; height:30px;" src="img\savemessage.png" alt="savemessage"></a></div>
+						</div>
+						
+						   <div style="padding-left:14px;" ><strong><span id="thisone">2000 </span> likes</strong></div>
+							
+							
+	<!-- java script for incrementing likes -->						
+							
+						<script type="text/javascript">
+							function doit(){
+							  document.getElementById("thisone").innerHTML = "you";
+							}
+							
+							
+							function addone(){
+							  var foo = document.getElementById('thisone').innerHTML;
+							  foo++;
+							  document.getElementById('thisone').innerHTML = foo;
+							  
+							}
+						
+							function showred() {
+							var x = document.getElementById("redlike");
+							
+							if (x.style.visibility === "hidden") {
+								x.style.visibility = "visible";
+								x.style.animation = "cssAnimation 1s forwards";
+								x.style.animation = "cssAnimation 1.5s forwards";
+								
+							} else {
+								x.style.visibility = "hidden";
+							}
+						}						
+						</script>
+						
+						<div class="commentsection" style="margin-top:10px;">
+							<div style="padding-left:14px;">
+								<a href="#" ><strong>myhouse </strong></a> What's your opinion about this house ? Would you 
+								interested to buy it ? <br> Tag your friends who love to buy it 😍<br>
+								Repost from <span id="dots">...</span><span id="more"> <a href="#" style="color:#00376B;">@architecture.house</a><br>House by Vivi Cirello <br>Photo by Lufe Gomes<br><br>
+								<a href="#" style="color:#00376B;">#myhouseidea #interiordesign #interior #interiors 
+								#house #home #design #architecture #decor #homedecor #casa #archdaily #beautifuldestinations</span></a>
+							
+								
+								
+								<button class="morebtn" onclick="myFunction()" id="myBtn"> more</button>
+	<!-- java script for more button -->						
+							<script>
+								function myFunction() {
+								  var dots = document.getElementById("dots");
+								  var moreText = document.getElementById("more");
+								  var btnText = document.getElementById("myBtn");
+								  
+					
+
+								  if (dots.style.display === "none") {
+									dots.style.display = "inline";
+									btnText.innerHTML = " more"; 
+									moreText.style.display = "none";
+								  } else {
+									dots.style.display = "none";
+									btnText.innerHTML = " less"; 
+									moreText.style.display = "inline";
+								  }
+								}
+							</script>
+							</div>
+							<div class="comment">
+								<div style=" padding-left:14px;">
+								<button class="morebtn" style="margin-left:-5px;  margin-top:4px;" onclick="moreFunction()" id="myBtn1">View all 4 comments</button>
+								<br>
+								<a href="#" ><strong>modamachos </strong></a> Incredible design 🖤✅<br> 
+								<a href="#" ><strong>escetera </strong></a> <a href="#" style="color:#00376B;">@chgvincent</a> This mood for kitchen. Dark cabinets and warm lighting.<br>
+								
+								<span id="coment1"></span><span id="more2">
+								
+								<a href="#" ><strong>designzome </strong></a> ️Sleek ❤️❤️❤<br>
+								<a href="#" ><strong>ie_art_of_design </strong></a> ️I am a young interior designer with a keen interest in natural <br>stones like marble. Please check out my profile and blog for innovative and eccentric<br>designs! <a href="#" style="color:#00376B;">@ie_art_of_design    https://iedesign04.wixsite.com/iedesign/post/moodboard<br>-for-a-home-at-the-ocean</br><br>
+								
+								</span></a>
+	<!-- java script for view all comments -->							
+								<script>
+									function moreFunction() {
+									  var coment1 = document.getElementById("coment1");
+									  var moreText1 = document.getElementById("more2");
+									  var btnText1 = document.getElementById("myBtn1");
+									  
+						
+
+									  if (coment1.style.display === "none") {
+										coment1.style.display = "inline";
+										btnText1.innerHTML = " View all 4 comments"; 
+										moreText1.style.display = "none";
+									  } else {
+										coment1.style.display = "none";
+										btnText1.innerHTML = " less comment"; 
+										moreText1.style.display = "inline";
+									  }
+									}
+								</script>
+							</div>	
+									<div class="time">
+										<p>6 HOURS AGO<p>
+									</div>
+										
+								<div class ="sendcomment"  style="border-top:1px solid #E3E4E4;">
+										<div class="addcoment">
+											<input style="padding-left:14px; padding-top:10px; padding-bottom:10px; height:60px;width:555px; background-color:white; border:none; outline: none;" type="text" placeholder="Add a comment..."></input>
+										</div>
+									<div class="commentbutton" >
+										<button type="send" style=" margin-left:40px; margin-top:22px; border:none; color:#B2DFFC; background-color:white; cursor:pointer; outline: none;"  >Post</button>
+									</div>
+									<br><br>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>					
+	</body>
+</html> 
+
+
