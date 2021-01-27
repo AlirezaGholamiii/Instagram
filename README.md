@@ -1,7 +1,10 @@
 # Instagram
 ### `This is an Instagram web version which is created with HTML, CSS, and Javascript.`
 ## Header
-![Here is the Image](https://i.imgur.com/cawTWmm.png)\
+![Here is the Image](https://i.imgur.com/cawTWmm.png)
+![Here is the Image](https://i.imgur.com/JdO8BGM.png)
+## Story and Post
+![Here is the Image](https://i.imgur.com/7DH63Fe.png)\
 👉 developed By Alireza Gholami
 
 
